@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-09-27T14:13:23.746551",
+  "services": {
+    "snapchef-backend": "running",
+    "snapchef-frontend": "running",
+    "redis": "running",
+    "elasticsearch": "running",
+    "pathway-pipeline": "running",
+    "Frontend": {
+      "status": "healthy",
+      "url": "http://localhost:3000",
+      "response_time": 0.025041
+    },
+    "Backend API": {
+      "status": "unhealthy",
+      "url": "http://localhost:8000",
+      "status_code": 404
+    },
+    "Elasticsearch": {
+      "status": "healthy",
+      "url": "http://localhost:9200",
+      "response_time": 0.075414
+    }
+  },
+  "endpoints": {
+    "/health": {
+      "status": "working",
+      "response_time": 0.029451
+    },
+    "/docs": {
+      "status": "working",
+      "response_time": 0.049635
+    },
+    "/recipes/popular": {
+      "status": "working",
+      "response_time": 0.029186
+    },
+    "/stats": {
+      "status": "working",
+      "response_time": 0.052043
+    }
+  },
+  "overall_status": "failed",
+  "recipe_search": {
+    "status": "working",
+    "results_found": 0,
+    "response_time": 0.081579
+  }
+}
